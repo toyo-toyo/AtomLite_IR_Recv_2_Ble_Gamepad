@@ -1,5 +1,7 @@
 
-赤外線用の学習リモコンをBluetoothリモコンとしても使えるよう万能にする
+赤外線用の学習リモコンをBluetooth操作対応リモコンにする
+https://zenn.dev/toyotoyo/articles/dab070a42478a9
+https://qiita.com/toyotoyo_/items/9772269f9a16b2235a9b
 
 # 赤外線受信した内容でBluetooth送信する
 
