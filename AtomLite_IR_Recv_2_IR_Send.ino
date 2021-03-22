@@ -30,6 +30,17 @@ void loop() {
     value = results.value;
     Serial.println(value);
     delay(500);
+    switch(value) {
+      case 1086296430:
+        Serial.println("DCR");
+        // HDMI1に切替
+        irsend.sendPanasonic(0x4004, 0x100A0A1);
+        delay(100);
+        irsend.sendPanasonic(0x4004, 0x1908213);
+        break;
+      default:
+        Serial.println("他の値です");
+    }
   }
   delay(50);
 }
